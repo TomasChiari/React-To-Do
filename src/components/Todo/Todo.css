@@ -1,0 +1,40 @@
+.todo {
+    padding: 5px 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    border-bottom: 1px solid #fafafa;
+}
+
+.task {
+    padding: 0;
+
+    width: 90%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    color: #fafafa;
+
+}
+
+.checkButtons {
+    padding: 0;
+
+    width: 10%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.check {
+    text-decoration-line: line-through;
+}

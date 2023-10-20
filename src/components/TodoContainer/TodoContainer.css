@@ -1,0 +1,32 @@
+.main-container {
+   
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.container, .list{
+    margin: 50px;
+    padding: 20px;
+
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0px black solid;
+    border-radius: 10px;
+
+    background-color: #444444;
+}
+
+.container {
+    flex-flow: row wrap;
+}
+
+.list {
+    flex-flow: column wrap;
+}

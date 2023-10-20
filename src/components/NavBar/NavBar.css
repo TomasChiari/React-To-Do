@@ -1,0 +1,32 @@
+nav {
+    background-color: #c74a4a;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+section {
+    padding: 10px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.logo img {
+    width: 50px;
+}
+
+.brand {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.mode > button {
+    width: 90px;
+    height: 30px;
+}

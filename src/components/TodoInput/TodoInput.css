@@ -1,0 +1,62 @@
+.input > form {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.input, .buttons {
+    padding: 0;
+}
+
+.input {
+    width: 79%;
+}
+
+.input > form > input{
+    width: 100%;
+
+    border-radius: 5px;
+    border: 0px solid black;
+    
+    padding-left: 10px;
+
+}
+
+.buttons {
+    width: 20%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons > .erase {
+    width: 49%;
+
+    background-color: #ce3434;
+    color: #ccc;
+
+    border-radius: 5px;
+    border: 0px solid black;
+
+    font-weight: bold;
+}
+
+.buttons > .add {
+    width: 49%;
+
+    background-color: #39b31a;
+    color: #ffffff;
+
+    border-radius: 5px;
+    border: 0px solid black;
+
+    font-weight: bold;
+
+}
